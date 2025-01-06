@@ -46,12 +46,14 @@ public class MainActivity extends AppCompatActivity {
         list.add(new FirstFragment());
         list.add(new SecondFragment());
         list.add(new ThirdFragment());
+        list.add(new FourFragment());
 
 
         ArrayList<String> namelist = new ArrayList<>();
         namelist.add("First");
         namelist.add("Second");
         namelist.add("Third");
+        namelist.add("Four");
 
 
         MyAdpter myAdpter = new MyAdpter(getSupportFragmentManager(),list,namelist);

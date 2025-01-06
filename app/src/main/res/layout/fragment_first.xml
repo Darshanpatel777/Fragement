@@ -13,6 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="First Fragment"
+        android:id="@+id/txt"
         android:textColor="#ffffff"
         android:textSize="30sp"/>
+
 </FrameLayout>
