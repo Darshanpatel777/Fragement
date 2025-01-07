@@ -3,17 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#003366"
+    android:background="#ffffff"
     tools:context=".FirstFragment">
 
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="First Fragment"
-        android:id="@+id/txt"
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello"
+        android:id="@+id/list"
+        android:gravity="center"
         android:textColor="#ffffff"
         android:textSize="30sp"/>
 
